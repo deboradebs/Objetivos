@@ -1,6 +1,16 @@
-h1{
-     font-size: 50px;
-    color: purple;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+root{
+    --cor-de-fundo:#BDA6CE;
+    --cor-texto-principal:#B4D3D9;
+    --cor-texto-secundario:#9B8EC7;
+    --botão-ativo: #FF7070;
+    --botão-inativo: #FFA6A6;
+
 }
+body{
+    font-family: "Archivo Black", sans-serif;
+}
+
 
 
