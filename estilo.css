@@ -9,6 +9,8 @@ root{
 
 }
 body{
+    background: var(--cor-de-fundo);
+    color: var(--cor-texto-principal);
     font-family: "Archivo Black", sans-serif;
 }
 
