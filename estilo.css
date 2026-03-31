@@ -16,8 +16,8 @@ body {
 }
 
 .conteudo-principal {
-    justify-conteent: center;
-    align-intems: cente;
+    justify-content: center;
+    align-items: center;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
