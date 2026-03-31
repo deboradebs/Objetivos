@@ -1,46 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-root{
-    --cor-de-fundo:#BDA6CE;
-    --cor-texto-principal:#B4D3D9;
-    --cor-texto-secundario:#9B8EC7;
+root {
+    --cor-de-fundo: #BDA6CE;
+    --cor-texto-principal: #B4D3D9;
+    --cor-texto-secundario: #9B8EC7;
     --botão-ativo: #FF7070;
     --botão-inativo: #FFA6A6;
 
 }
-body{
+
+body {
     background: var(--cor-de-fundo);
     color: var(--cor-texto-principal);
     font-family: "Archivo Black", sans-serif;
 }
 
-.conteudo-principal{
-     justify-conteent: center;
-     align-intems: cente;
-     max-width: 1200px;
-     width: 100%;
-     margin: 0 auto;
-     
+.conteudo-principal {
+    justify-conteent: center;
+    align-intems: cente;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
-    .titulo-principal span{
-        color:#BDA6CE
-    }
-    .botao{
-        background-color: var(--botao-inativo);
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        font-size: 18px;
-        align-items: center;
-        width: 100%;
-    }
 
-    
+.titulo-principal span {
+    color: #BDA6CE
+}
 
-
+.botao {
+    background-color: var(--botao-inativo);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
