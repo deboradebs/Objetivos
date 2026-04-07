@@ -57,12 +57,12 @@ body {
         display: flex;
     }
 
-.botao:last-child{ 
+.botao:frist-child{ 
 border-radius: 40px 0 0 0;
 }
     
 
-.botao:first-child{
+.botao:last-child{
 border-radius: 0 40px 0 0;
 }
 }
