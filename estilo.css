@@ -65,7 +65,7 @@ body {
         display: flex;
     }
 
-.botao:frist-child{ 
+.botao:first-child{ 
 border-radius: 40px 0 0 0;
 }
     
