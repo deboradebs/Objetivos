@@ -58,12 +58,11 @@ body {
     }
 
 .botao:last-child{ 
- bonder-radius: 40px 0 0 0;
+border-radius: 40px 0 0 0;
 }
     
 
 .botao:first-child{
-    bonder-radius: 0 40px 0 0;
+border-radius: 0 40px 0 0;
 }
-
 }
