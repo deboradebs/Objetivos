@@ -4,8 +4,8 @@
     --cor-de-fundo: #BDA6CE;
     --cor-texto-principal: #000000;
     --cor-texto-secundario: #9B8EC7;
-    --botao-ativo: #7e70ad;
-    --botao-inativo: #7769a5;
+    --botao-ativo: #1f1837;
+    --botao-inativo: #504b62;
 
 }
 
@@ -51,6 +51,14 @@ body {
 .botao:first-child{
     border-radius: 40px 40px 0 0;
 }
+
+.botao.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid #4a0979
+}
+
+
+
 
 @media screen and (min-width: 768px){
     .botoes{
