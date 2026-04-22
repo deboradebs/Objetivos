@@ -91,6 +91,15 @@ body {
     color: var(--cor-texto-secundario);
     text-transform:uppercase ;
 }
+.contador-digito-numerico{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-texto{
+    color: var(--cor-texto-secundario);
+    font-size: 20px;
+    margin: 0;
+}
 
 @media screen and (min-width: 768px){
     .botoes{
