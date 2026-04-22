@@ -68,7 +68,7 @@ body {
 .aba-texto{
     background-color: var(--botao-inativo);
     padding: 40px;
-    border-radius
+    border-radius: 0 0 40px 40px;
 }
 .contador{
     display: flex;
@@ -89,7 +89,7 @@ body {
 .coteudo-titulo-secundario{
     text-align: center;
     color: var(--cor-texto-secundario);
-    text-transform: ;
+    text-transform:uppercase ;
 }
 
 @media screen and (min-width: 768px){
